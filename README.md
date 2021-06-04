@@ -1,4 +1,4 @@
-# Awesome-Point-Cloud-Completion
+# Point Cloud Completion
 
 - [[CVPR](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)] PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation. [[tensorflow](https://github.com/charlesq34/pointnet)] [[pytorch](https://github.com/fxia22/pointnet.pytorch)] [**`cls.`** **`seg.`** **`det.`**] 🔥 ⭐ 
 - [[NeurIPS](https://papers.nips.cc/paper/7095-pointnet-deep-hierarchical-feature-learning-on-point-sets-in-a-metric-space)] PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space. [[tensorflow](https://github.com/charlesq34/pointnet2)] [[pytorch](https://github.com/erikwijmans/Pointnet2_PyTorch)] [**`cls.`** **`seg.`**] 🔥 ⭐
@@ -7,6 +7,7 @@
 
 ## 2018
 
+- [[ICML]()] Learning representations and generative models for 3D point clouds. [**`completion`**] 
 - [[3DV](https://arxiv.org/abs/1808.00671)] PCN: Point Completion Network. [[tensorflow](https://github.com/TonythePlaneswalker/pcn)] [__`reg.`__ __`oth.`__ __`aut.`__] :fire:	
 
 ## 2019
