@@ -62,7 +62,6 @@
 ### arXiv
 
 - [OcCo: Pre-Training by Completing Point Clouds](https://arxiv.org/pdf/2010.01089.pdf) [`pre-training`, `completion`; [Github](https://github.com/hansen7/OcCo)]
-
 - [[arXiv](https://arxiv.org/abs/2006.03762)] Deep Octree-based CNNs with Output-Guided Skip Connections for 3D Shape and Scene Completion. [**`Completion.`**]
 - [[arXiv](https://arxiv.org/abs/2007.04537)] Point Set Voting for Partial Point Cloud Analysis. [**`Segmentation,Classification,Completion.`**]
 - [[arXiv](https://arxiv.org/abs/2008.03404)] VPC-Net: Completion of 3D Vehicles from MLS Point Clouds. [**`Completion.`**]
