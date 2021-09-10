@@ -4,14 +4,17 @@
 - [[NeurIPS](https://papers.nips.cc/paper/7095-pointnet-deep-hierarchical-feature-learning-on-point-sets-in-a-metric-space)] PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space. [[tensorflow](https://github.com/charlesq34/pointnet2)] [[pytorch](https://github.com/erikwijmans/Pointnet2_PyTorch)] [**`cls.`** **`seg.`**] 🔥 ⭐
 - [[TOG](https://arxiv.org/abs/1801.07829)] Dynamic Graph CNN for Learning on Point Clouds. [[tensorflow](https://github.com/WangYueFt/dgcnn)] [[pytorch](https://github.com/WangYueFt/dgcnn)] [**`cls.`** **`seg.`**] 🔥 ⭐
 - [[CVPR](http://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_FoldingNet_Point_Cloud_CVPR_2018_paper.pdf)] FoldingNet: Point Cloud Auto-encoder via Deep Grid Deformation. [[code](http://www.merl.com/research/license#FoldingNet)] [**`cls.`**]
+-  [3D Semantic Scene Completion: a Survey](https://arxiv.org/pdf/2103.07466.pdf) [arXiv 2021] 
 
 # 2021
 
 ### ICCV
 
+- [Voxel-based Network for Shape Completion by Leveraging Edge Generation](https://arxiv.org/pdf/2108.09936v1.pdf) [`completion`; [Github](https://github.com/xiaogangw/VE-PCN)] 
 - [ME-PCN: Point Completion Conditioned on Mask Emptiness](https://arxiv.org/pdf/2108.08187.pdf) [`completion`]
 - [PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers](https://arxiv.org/pdf/2108.08839.pdf) [`completion`; [PyTorch](https://github.com/yuxumin/PoinTr)]
 - [SnowflakeNet: Point Cloud Completion by Snowflake Point Deconvolution with Skip-Transformer](https://arxiv.org/pdf/2108.04444.pdf) [`completion`; [Github](https://github.com/AllenXiangX/SnowflakeNet)]
+- [Unsupervised Point Cloud Pre-Training via View-Point Occlusion, Completion](https://arxiv.org/pdf/2010.01089.pdf) [`pre-training`; [Github](https://github.com/hansen7/OcCo)] 
 
 ### CVPR
 
@@ -25,6 +28,8 @@
 ### Others
 
 - [Unsupervised Shape Completion via Deep Prior in the Neural Tangent Kernel Perspective](https://arxiv.org/pdf/2104.09023.pdf) [`completion`; TOG]
+- [Self-Guided Instance-Aware Network for Depth Completion and Enhancement](https://arxiv.org/pdf/2105.12186.pdf) [`depth`; ICRA] 
+- [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI] 
 
 ### arXiv
 
@@ -76,6 +81,7 @@
 
 ### CVPR
 
+-  [TopNet: Structural Point Cloud Decoder](https://openaccess.thecvf.com/content_CVPR_2019/papers/Tchapmi_TopNet_Structural_Point_Cloud_Decoder_CVPR_2019_paper.pdf) [`completion`; [Github](https://github.com/lynetcha/completion3d)] 
 - [RL-GAN-Net: A Reinforcement Learning Agent Controlled GAN Network for Real-Time Point Cloud Shape Completion](https://openaccess.thecvf.com/content_CVPR_2019/papers/Sarmad_RL-GAN-Net_A_Reinforcement_Learning_Agent_Controlled_GAN_Network_for_Real-Time_CVPR_2019_paper.pdf) [`completion`; [PyTorch](https://github.com/iSarmad/RL-GAN-Net)]
 -  [[CVPR](http://openaccess.thecvf.com/content_CVPR_2019/papers/Giancola_Leveraging_Shape_Completion_for_3D_Siamese_Tracking_CVPR_2019_paper.pdf)] Leveraging Shape Completion for 3D Siamese Tracking. [[pytorch](https://github.com/SilvioGiancola/ShapeCompletion3DTracking)] [**`tra.`** ] 
 -  [[CVPR](https://arxiv.org/abs/1903.04019)]  Deep Reinforcement Learning of Volume-guided Progressive View Inpainting for 3D Point Scene Completion from a Single Depth Image. [**`rec.`** **`oth.`**] 
@@ -85,11 +91,13 @@
 ### CVPR
 
 - [Learning 3D Shape Completion From Laser Scan Data With Weak Supervision](https://openaccess.thecvf.com/content_cvpr_2018/papers/Stutz_Learning_3D_Shape_CVPR_2018_paper.pdf) [`completion`; [Github](https://github.com/davidstutz/cvpr2018-shape-completion)]
+- [A Papier-Mâché Approach to Learning 3D Surface Generation](https://openaccess.thecvf.com/content_cvpr_2018/papers/Groueix_A_Papier-Mache_Approach_CVPR_2018_paper.pdf) [`generation`; [PyTorch](https://github.com/ThibaultGROUEIX/AtlasNet)] 
 
 ### Others
 
 - [PCN: Point Completion Network](https://arxiv.org/pdf/1808.00671.pdf) [`completion`; [Tensorflow](https://github.com/wentaoyuan/pcn); 3DV]
--  [[ICML](https://github.com/jiatianzhi/Awesome-Point-Cloud-Completion/blob/main)] Learning representations and generative models for 3D point clouds. [**`completion`**] 
+-  [[ICML](https://github.com/jiatianzhi/Awesome-Point-Cloud-Completion/blob/main)] Learning representations and generative models for 3D point clouds. [**`completion`**]
+-  [Learning Efficient Point Cloud Generation for Dense 3D Object Reconstruction](https://arxiv.org/pdf/1706.07036.pdf) [`reconstruction`; [Tensorflow](https://github.com/chenhsuanlin/3D-point-cloud-generation); AAAI]  
 
 # 2017
 
