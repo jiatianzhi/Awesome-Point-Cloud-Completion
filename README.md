@@ -1,85 +1,69 @@
-# Point Cloud Completion
+#### 2017
 
-- [[CVPR](http://openaccess.thecvf.com/content_cvpr_2017/papers/Qi_PointNet_Deep_Learning_CVPR_2017_paper.pdf)] PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation. [[tensorflow](https://github.com/charlesq34/pointnet)] [[pytorch](https://github.com/fxia22/pointnet.pytorch)] [**`cls.`** **`seg.`** **`det.`**] 🔥 ⭐
-- [[NeurIPS](https://papers.nips.cc/paper/7095-pointnet-deep-hierarchical-feature-learning-on-point-sets-in-a-metric-space)] PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space. [[tensorflow](https://github.com/charlesq34/pointnet2)] [[pytorch](https://github.com/erikwijmans/Pointnet2_PyTorch)] [**`cls.`** **`seg.`**] 🔥 ⭐
-- [[TOG](https://arxiv.org/abs/1801.07829)] Dynamic Graph CNN for Learning on Point Clouds. [[tensorflow](https://github.com/WangYueFt/dgcnn)] [[pytorch](https://github.com/WangYueFt/dgcnn)] [**`cls.`** **`seg.`**] 🔥 ⭐
--  [3D Semantic Scene Completion: a Survey](https://arxiv.org/pdf/2103.07466.pdf) [arXiv 2021] 
+- <a href="https://arxiv.org/pdf/1612.00101.pdf">[CVPR-17-3D-EPN]</a> Shape Completion using 3D-Encoder-Predictor CNNs and Shape Synthesis <a href="https://github.com/angeladai/cnncomplete">[**`Torch7`**]</a>
 
-# 2021
+#### 2018
 
-### ICCV
+- <a href="https://openaccess.thecvf.com/content_cvpr_2018/papers/Groueix_A_Papier-Mache_Approach_CVPR_2018_paper.pdf">[CVPR-18-AtlasNet]</a> A Papier-Mâché Approach to Learning 3D Surface Generation <a href="https://github.com/ThibaultGROUEIX/AtlasNet">[**`PyTorch`**]</a>
 
-- [Voxel-based Network for Shape Completion by Leveraging Edge Generation](https://arxiv.org/pdf/2108.09936v1.pdf) [`completion`; [Github](https://github.com/xiaogangw/VE-PCN)] 
-- [Unsupervised Point Cloud Pre-Training via View-Point Occlusion, Completion](https://arxiv.org/pdf/2010.01089.pdf) [`pre-training`; [Github](https://github.com/hansen7/OcCo)] 
+- <a href="https://openaccess.thecvf.com/content_cvpr_2018/papers/Yang_FoldingNet_Point_Cloud_CVPR_2018_paper.pdf">[CVPR-18-FoldingNet]</a> FoldingNet: Point Cloud Auto-encoder via Deep Grid Deformation <a href="http://www.merl.com/research/license#FoldingNet">[**`code`**]</a>
 
-### Others
+- [ICML-18-LGAN-AE] Learning representations and generative models for 3D point clouds [**`code`**]
 
-- [Unsupervised Shape Completion via Deep Prior in the Neural Tangent Kernel Perspective](https://arxiv.org/pdf/2104.09023.pdf) [`completion`; TOG]
-- [Self-Guided Instance-Aware Network for Depth Completion and Enhancement](https://arxiv.org/pdf/2105.12186.pdf) [`depth`; ICRA] 
-- [Sparse Single Sweep LiDAR Point Cloud Segmentation via Learning Contextual Shape Priors from Scene Completion](https://arxiv.org/pdf/2012.03762.pdf) [`seg`; [Github](https://github.com/yanx27/JS3C-Net); AAAI] 
+- <a href="https://arxiv.org/pdf/1808.00671.pdf">[3DV-18-PCN]</a> PCN: Point Completion Network <a href="https://github.com/wentaoyuan/pcn">[**`TensorFlow`**]</a> 🔥⭐
 
-### arXiv
+#### 2019
 
-- [CarveNet: Carving Point-Block for Complex 3D Shape Completion](https://arxiv.org/pdf/2107.13452.pdf) [`completion`]
-- [View-Guided Point Cloud Completion](https://arxiv.org/pdf/2104.05666.pdf) [`completion`]
-- [HyperPocket: Generative Point Cloud Completion](https://arxiv.org/pdf/2102.05973.pdf) [`completion`]
--  [[arXiv](https://arxiv.org/abs/2012.10412)] PC-RGNN: Point Cloud Completion and Graph Neural Network for 3D Object Detection. [**`Detection.`**] 
+- <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Tchapmi_TopNet_Structural_Point_Cloud_Decoder_CVPR_2019_paper.pdf">[CVPR-19-TopNet]</a> TopNet: Structural Point Cloud Decoder <a href="https://github.com/lynetcha/completion3d">[**`code`**]</a> ⭐
 
-# 2020
+#### 2020
 
-### ECCV
+- <a href="https://cseweb.ucsd.edu/~mil070/projects/AAAI2020/paper.pdf">[AAAI-20-MSN]</a> Morphing and Sampling Network for Dense Point Cloud Completion <a href="https://github.com/Colin97/MSN-Point-Cloud-Completion">[**`PyTorch`**]</a> ⭐
 
-- [Weakly-supervised 3D Shape Completion in the Wild](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500273.pdf) [`completion`]
-- [Multimodal Shape Completion via Conditional Generative Adversarial Networks](https://arxiv.org/pdf/2003.07717.pdf) [`completion`; [PyTorch](https://github.com/ChrisWu1997/Multimodal-Shape-Completion)]
+- <a href="https://arxiv.org/pdf/2004.03327.pdf">[CVPR-20-CRN]</a> Cascaded Refinement Network for Point Cloud Completion <a href="https://github.com/xiaogangw/cascaded-point-completion">[**`TensorFlow`**]</a> ⭐
 
-### CVPR
+- <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_PF-Net_Point_Fractal_Network_for_3D_Point_Cloud_Completion_CVPR_2020_paper.pdf">[CVPR-20-PF-Net]</a> PF-Net: Point Fractal Network for 3D Point Cloud Completion <a href="https://github.com/zztianzz/PF-Net-Point-Fractal-Network">[**`PyTorch`**]</a>
 
--  [[CVPR](https://arxiv.org/pdf/2003.01456.pdf)] Implicit Functions in Feature Space for Shape Reconstruction and Completion. [[code](https://github.com/jchibane/if-net)] [**`oth.`**] 
--  [[CVPR](http://openaccess.thecvf.com/content_CVPR_2020/papers/Hou_RevealNet_Seeing_Behind_Objects_in_RGB-D_Scans_CVPR_2020_paper.pdf)] RevealNet: Seeing Behind Objects in RGB-D Scans. [**`Completion`**] 
+- <a href="https://arxiv.org/pdf/2005.03871.pdf">[CVPR-20-SA-Net]</a> Point Cloud Completion by Skip-attention Network with Hierarchical Folding [**`code`**]
 
-### Others
+- <a href="https://arxiv.org/pdf/2006.03761.pdf">[ECCV-20-GRNet]</a> GRNet: Gridding Residual Network for Dense Point Cloud Completion <a href="https://github.com/hzxie/GRNet">[**`PyTorch`**]</a> ⭐
 
-- [Skeleton-bridged Point Completion: From Global Inference to Local Adjustment](https://papers.nips.cc/paper/2020/file/ba036d228858d76fb89189853a5503bd-Paper.pdf) [`completion`; NeurIPS]
-- [SAUM: Symmetry-Aware Upsampling Module for Consistent Point Cloud Completion](https://openaccess.thecvf.com/content/ACCV2020/papers/Son_SAUM_Symmetry-Aware_Upsampling_Module_for_Consistent_Point_Cloud_Completion_ACCV_2020_paper.pdf) [`completion`; [Tensorflow](https://github.com/countywest/SAUM); ACCV]
-- [[ICRA](https://arxiv.org/abs/1909.07137v1)] PLIN: A Network for Pseudo-LiDAR Point Cloud Interpolation. [**`completion.`**]
+- <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480069.pdf">[ECCV-20-SoftPoolNet]</a> SoftPoolNet: Shape Descriptor for Point Cloud Completion and Classification <a href="https://github.com/wangyida/softpool">[**`code`**]</a>
 
-### arXiv
+- <a href="https://arxiv.org/pdf/2007.02374.pdf">[ECCV-20-NSFA]</a> Detail Preserved Point Cloud Completion via Separated Feature Aggregation <a href="https://github.com/XLechter/Detail-Preserved-Point-Cloud-Completion-via-SFA">[**`TensorFlow`**]</a>
 
-- [OcCo: Pre-Training by Completing Point Clouds](https://arxiv.org/pdf/2010.01089.pdf) [`pre-training`, `completion`; [Github](https://github.com/hansen7/OcCo)]
-- [[arXiv](https://arxiv.org/abs/2006.03762)] Deep Octree-based CNNs with Output-Guided Skip Connections for 3D Shape and Scene Completion. [**`Completion.`**]
-- [[arXiv](https://arxiv.org/abs/2007.04537)] Point Set Voting for Partial Point Cloud Analysis. [**`Segmentation,Classification,Completion.`**]
-- [[arXiv](https://arxiv.org/abs/2008.03404)] VPC-Net: Completion of 3D Vehicles from MLS Point Clouds. [**`Completion.`**]
-- [[arXiv](https://arxiv.org/pdf/2010.04278.pdf)] Refinement of Predicted Missing Parts Enhance Point Cloud Completion.[[torch](https://github.com/ivansipiran/Refinement-Point-Cloud-Completion)] [**`Completion`**]
-- [[arXiv](https://arxiv.org/pdf/2010.08719.pdf)] A Self-supervised Cascaded Refinement Network for Point Cloud Completion. [**` Completion`**]
+- <a href="https://arxiv.org/pdf/1904.00069.pdf">[ICLR-20-pcl2pcl]</a> Unpaired Point Cloud Completion on Real Scans using Adversarial Training <a href="https://github.com/xuelin-chen/pcl2pcl-gan-pub">[**`TensorFlow`**]</a>
 
-# 2019
+#### 2021
 
-### ICCV
+- <a href="https://arxiv.org/pdf/2103.07838.pdf">[CVPR-21-Cycle4Completion]</a> Cycle4Completion: Unpaired Point Cloud Completion using Cycle Transformation with Missing Region Coding <a href="https://github.com/diviswen/Cycle4Completion">[**`Tensorflow`**]</a>
 
-- [Multi-Angle Point Cloud-VAE: Unsupervised Feature Learning for 3D Point Clouds from Multiple Angles by Joint Self-Reconstruction and Half-to-Half Prediction](https://arxiv.org/pdf/1907.12704.pdf) [`unsupervised`, `cls`, `generation`, `seg`, `completion`]
+- <a href="https://arxiv.org/pdf/2104.10154.pdf">[CVPR-21-VRCNet]</a> Variational Relational Point Completion Network <a href="https://github.com/paul007pl/VRCNet">[**`PyTorch`**]</a> ⭐
 
-### CVPR
+- <a href="https://arxiv.org/pdf/2103.02535.pdf">[CVPR-21-SpareNet]</a> Style-based Point Generator with Adversarial Rendering for Point Cloud Completion <a href="https://github.com/microsoft/SpareNet">[**`PyTorch`**]</a>
 
-- [RL-GAN-Net: A Reinforcement Learning Agent Controlled GAN Network for Real-Time Point Cloud Shape Completion](https://openaccess.thecvf.com/content_CVPR_2019/papers/Sarmad_RL-GAN-Net_A_Reinforcement_Learning_Agent_Controlled_GAN_Network_for_Real-Time_CVPR_2019_paper.pdf) [`completion`; [PyTorch](https://github.com/iSarmad/RL-GAN-Net)]
--  [[CVPR](http://openaccess.thecvf.com/content_CVPR_2019/papers/Giancola_Leveraging_Shape_Completion_for_3D_Siamese_Tracking_CVPR_2019_paper.pdf)] Leveraging Shape Completion for 3D Siamese Tracking. [[pytorch](https://github.com/SilvioGiancola/ShapeCompletion3DTracking)] [**`tra.`** ] 
--  [[CVPR](https://arxiv.org/abs/1903.04019)]  Deep Reinforcement Learning of Volume-guided Progressive View Inpainting for 3D Point Scene Completion from a Single Depth Image. [**`rec.`** **`oth.`**] 
+- <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Wen_PMP-Net_Point_Cloud_Completion_by_Learning_Multi-Step_Point_Moving_Paths_CVPR_2021_paper.pdf">[CVPR-21-PMP-Net]</a> PMP-Net: Point Cloud Completion by Learning Multi-step Point Moving Paths <a href="https://github.com/diviswen/PMP-Net">[**`PyTorch`**]</a>
 
-# 2018
+- <a href="https://arxiv.org/pdf/2103.16671.pdf">[CVPR-21-DeCo]</a> Denoise and Contrast for Category Agnostic Shape Completion <a href="https://github.com/antoalli/Deco">[**`PyTorch`**]</a>
 
-### CVPR
+- <a href="https://arxiv.org/pdf/2104.13366.pdf">[CVPR-21-ShapeInversion]</a> Unsupervised 3D Shape Completion through GAN Inversion <a href="https://github.com/junzhezhang/shape-inversion">[**`PyTorch`**]</a>
 
-- [Learning 3D Shape Completion From Laser Scan Data With Weak Supervision](https://openaccess.thecvf.com/content_cvpr_2018/papers/Stutz_Learning_3D_Shape_CVPR_2018_paper.pdf) [`completion`; [Github](https://github.com/davidstutz/cvpr2018-shape-completion)]
+- <a href="https://arxiv.org/pdf/2108.04444.pdf">[ICCV-21-SnowflakeNet]</a> SnowflakeNet: Point Cloud Completion by Snowflake Point Deconvolution with Skip-Transformer <a href="https://github.com/AllenXiangX/SnowflakeNet">[**`PyTorch`**]</a>
 
-### Others
+- <a href="https://arxiv.org/pdf/2108.08839.pdf">[ICCV-21-PoinTr]</a> PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers <a href="https://github.com/yuxumin/PoinTr">[**`PyTorch`**]</a>
 
--  [Learning Efficient Point Cloud Generation for Dense 3D Object Reconstruction](https://arxiv.org/pdf/1706.07036.pdf) [`reconstruction`; [Tensorflow](https://github.com/chenhsuanlin/3D-point-cloud-generation); AAAI]  
+- <a href="https://arxiv.org/pdf/2108.08187.pdf">[ICCV-21-ME-PCN]</a> ME-PCN: Point Completion Conditioned on Mask Emptiness [**`code`**]
 
-# 2017
+#### 待整理
 
-### ICCV
+- <a href="链接">[CVPR-18-3D-Capsule]</a> 题目 <a href="链接">[**`code`**]</a>
 
-- [High-Resolution Shape Completion Using Deep Neural Networks for Global Structure and Local Geometry Inference](https://openaccess.thecvf.com/content_ICCV_2017/papers/Han_High-Resolution_Shape_Completion_ICCV_2017_paper.pdf) [`completion`]
+- <a href="链接">[IRAL-ECG]</a> 题目 <a href="链接">[**`code`**]</a> ⭐
 
-### Others
+- <a href="链接">[CVPR-19-DeepSDF]</a> 题目 <a href="链接">[**`code`**]</a>
 
-- [Shape Completion Enabled Robotic Grasping](https://arxiv.org/pdf/1609.08546.pdf) [`completion`; [Keras](https://github.com/CRLab/pc_object_completion_cnn); IROS]
+- <a href="链接">[ICCV-19-MAPVAE]</a> 题目 <a href="链接">[**`code`**]</a>
+
+- <a href="链接">[ICCV-19-ForkNet]</a> 题目 <a href="链接">[**`code`**]</a>
+
+- <a href="链接">[IRAL-PointSetVoting]</a> 题目 <a href="链接">[**`code`**]</a>
